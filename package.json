@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-node-alegra",
+  "version": "1.0.0",
+  "description": "eslint nodejs configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yaron Segal",
+  "license": "ISC",
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
