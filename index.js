@@ -8,23 +8,24 @@ module.exports = {
          "node": true
     },
 
+    //see http://eslint.org/docs/rules/
     rules: {
         //Possible errors
         "no-unsafe-negation" : "error",
-        "no-extra-parens" : "error",
+        //"no-extra-parens" : "error",  //TODO - enable in the future
         "no-console" : "off",
         "no-constant-condition" : "error",
         //TODO
 
         //Best Practices
-        "complexity" : ["error", 3],
+        "complexity" : ["error", 5],
         //TODO
 
         //Strict Mode
         "strict" : "error",
 
         //Variables
-        "no-unused-vars": ["error", { "varsIgnorePattern": "cl" }],
+        "no-unused-vars": ["error", { "varsIgnorePattern": "cl", "args": "none" } ],
         //TODO
 
         //Node.js and CommonJS
@@ -34,7 +35,7 @@ module.exports = {
         "linebreak-style" : "off",
         "semi": ["error", "always"],
         "quotes": "off",
-        "max-len" : ["error" ,{ "ignoreComments": true ,"code" : 120}],
+        "max-len" : ["error" ,{ "ignoreComments": true ,"code" : 200}],
         "comma-spacing" : "off",
         "space-before-blocks" : ["error" , "never"],
         "indent": ["error", "tab"]

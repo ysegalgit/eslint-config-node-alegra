@@ -6,6 +6,6 @@ module.exports = {
     //"extends": ["eslint:recommended", "defaults/configurations/node-runtime"],
     "extends": ["eslint:recommended"],
     "rules": {
-        
+
     }
 };
