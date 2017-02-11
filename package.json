@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-node-alegra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint nodejs configuration",
   "main": "index.js",
   "repository": {
